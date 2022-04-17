@@ -1,0 +1,69 @@
+body {
+    background-color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /*background-color: #cccccc;
+    border: 2px solid white;*/
+    position: absolute;
+}
+.footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+.header {
+    top: 5px;
+    height: 5px;
+    left: 5px;
+    right: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    height: 64px;
+    border-right: solid 1px #555555;
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    right: 114px;
+    left: 114px;
+
+}
+
+.rightmenu {
+    top: 114px;
+    bottom: 64px;
+    width: 100px;
+    right: 5px;
+    border-left: solid 1px #555555;
+}
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+    border: solid 2px brown;
+}
+
+.tableau {
+    max-width: 55%;
+    padding-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
